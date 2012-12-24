@@ -4,7 +4,7 @@
 // @author          Daniel Aquino
 // @namespace       http://fly.thruhere.net
 // @description     Enable auto complete on all forms
-// @include         http*
+// @include         *
 //
 // ==/UserScript==
 //
