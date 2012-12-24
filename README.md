@@ -1,4 +1,6 @@
 greasemonkey-scripts
 ====================
 
-Greasemonkey scripts I use for Firefox and Chrome.  Note that chrome doesn't support @require hence I chose so far to use straight js (I know there is ways around this).
+Greasemonkey scripts I use for Firefox and Chrome.
+
+Note: Chrome doesn't support @require hence I chose so far to use straight js even though there is ways around it.
