@@ -9,10 +9,18 @@
 // ==/UserScript==
 //
 
-// top nav
-var elements = document.getElementsByClassName("x-layout-mini-north");
-for ( var i=0; i<elements.length; i++ ) elements[i].click();
+// had to use a timer for slow raspberry pi
+window.__graphite_hide_panel_interval = window.setInterval(function(){
+	var kill_timer = function(){
+		window.clearInterval( window.__graphite_hide_panel_interval );
+	}
+	// top nav
+	var elements = document.getElementsByClassName("x-layout-mini-north");
+	if ( elements.length > 0 ) kill_timer();
+	for ( var i=0; i<elements.length; i++ ) elements[i].click();
+	// left tree nav
+	elements = document.getElementsByClassName("x-layout-mini-west");
+	if ( elements.length > 0 ) kill_timer();
+	for ( var i=0; i<elements.length; i++ ) elements[i].click();
+}, 1000);
 
-// left tree nav
-elements = document.getElementsByClassName("x-layout-mini-west");
-for ( var i=0; i<elements.length; i++ ) elements[i].click();
