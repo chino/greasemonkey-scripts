@@ -2,7 +2,7 @@
 //
 // @name            Autocomplete On
 // @author          Daniel Aquino
-// @namespace       http://fly.thruhere.net
+// @namespace       https://github.com/chino
 // @description     Enable auto complete on all forms
 // @include         *
 //

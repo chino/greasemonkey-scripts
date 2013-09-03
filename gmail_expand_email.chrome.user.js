@@ -2,7 +2,7 @@
 //
 // @name            Gmail - Expand email.
 // @author          Daniel Aquino
-// @namespace       http://fly.thruhere.net
+// @namespace       https://github.com/chino
 // @description     Removes right pane (with adds) when reading an email. (can't use jquery because of chrome)
 // @include         *mail.google.com*
 //

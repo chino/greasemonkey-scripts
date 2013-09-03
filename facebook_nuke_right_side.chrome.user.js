@@ -2,7 +2,7 @@
 //
 // @name            Facebook - Nuke Right Side
 // @author          Daniel Aquino
-// @namespace       http://fly.thruhere.net
+// @namespace       https://github.com/chino
 // @description     Hides the sidebar and resizes the center (can't use jquery because of chrome)
 // @include         *facebook.com*
 //

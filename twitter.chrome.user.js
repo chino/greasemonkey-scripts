@@ -2,7 +2,7 @@
 //
 // @name            Twitter - Nuke User Recommendations
 // @author          Daniel Aquino
-// @namespace       http://fly.thruhere.net
+// @namespace       https://github.com/chino
 // @description     Hides the sidebar recommendations (can't use jquery because of chrome)
 // @include         *twitter.com*
 //
