@@ -18,6 +18,7 @@ if(typeof __friend_suggest_remover == 'undefined')
 			if(!e) break;
 			if(e.getAttribute('guidedhelpid') != "friendsuggestions") break;
 			e.parentNode.removeChild(e);
+			clearInterval(__friend_suggest_remover);
 		}
 	},1000);
 }
