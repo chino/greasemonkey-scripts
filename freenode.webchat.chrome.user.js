@@ -4,6 +4,7 @@
 // @author          Daniel Aquino
 // @namespace       https://github.com/chino
 // @include         https://webchat.freenode.net/*
+// @include         http://webchat.freenode.net/*
 //
 // ==/UserScript==
 //
