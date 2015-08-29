@@ -12,8 +12,8 @@ if(typeof ___updater == 'undefined')
 {
 
   // refresh the list
-	___refresher = setInterval(function(){
-		var e = document.getElementById('refresh');
+  ___refresher = setInterval(function(){
+    var e = document.getElementById('refresh');
     if(e && e.click)
     {
       e.click();
@@ -23,22 +23,22 @@ if(typeof ___updater == 'undefined')
     {
       console.log("no #refresh button?");
     }
-	}, 60 * 1000);
+  }, 60 * 1000);
 
   // update the listed gaurdian
-	___updater = setInterval(function(){
-		var e = document.getElementById('updateMe');
+  ___updater = setInterval(function(){
+    var e = document.getElementById('updateMe');
     if(e && e.click && e.style.display == "block")
     {
       e.click();
-  		document.getElementById('updateMeForm').click();
+      document.getElementById('updateMeForm').click();
       console.log("updating Gaurdian listing");
     }
     else
     {
       //console.log("no #updateMe button?");
     }
-	}, 60 * 1000);
+  }, 60 * 1000);
 
 }
 
